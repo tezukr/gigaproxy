@@ -11,7 +11,7 @@ start:
 stop:
 	docker-compose stop
 
-state:
+status:
 	docker-compose ps
 
 build:
