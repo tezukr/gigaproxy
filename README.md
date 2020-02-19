@@ -1,7 +1,7 @@
 # GIGAPROXY - proxy image which allows you to debug and test tezos api requests, without the need to install a tezos arhive  node
 
 ## Benefits:
-	- no need to install an archive node (https://mainnet.tezos.org.ua used)
+	- no need to install an archive node (https://mainnet.tezos.org.ua used as default)
 	- custom logs for debugging and testing
 	- log files can be used for further analysis / statistics
 	- it can easily be configured for a separate endpoint - on your own node or any other
