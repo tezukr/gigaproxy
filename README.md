@@ -5,6 +5,7 @@
 	- custom logs for debugging and testing
 	- log files can be used for further analysis / statistics
 	- it can easily be configured for a separate endpoint - on your own node or any other
+	- lightweight nginx proxy
 
 ## Install docker-compose
 
