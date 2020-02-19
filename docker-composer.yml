@@ -1,0 +1,17 @@
+version: '3.5'
+services:
+  frontend:
+    restart: always
+    container_name: giga.proxy
+    ports:
+      - "8080:80"
+    build:
+      context: .
+      dockerfile:
+        ./docker/Dockerfile
+    volumes:
+      - .:/proxy
+      - ./logs/nginx/:/logs
+    logging:
+      options:
+        max-size: 100m
