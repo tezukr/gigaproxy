@@ -43,7 +43,7 @@ Log format definition for debugging/testing purposes:
 log_format upstr '$host "$time_local" $status $request_time $upstream_response_time $request_length $bytes_sent $remote_addr->$upstream_addr $request';
 
 # Usage: 
-By default proxy bind to localhost:80080:
+By default proxy bind on localhost:80080:
 
 	$ curl localhost:8080/chains/main/blocks/head/context/contracts/tz1RaQMyWSExjoykpbA9Ga241WeMEGutXqLF
 
